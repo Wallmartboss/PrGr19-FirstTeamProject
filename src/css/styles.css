@@ -8,7 +8,7 @@
 @import url('./vite-promo.css');
 @import url('./header.css');
 
-:root {
+/* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -22,4 +22,74 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+} */
+@font-face {
+  font-family: 'Gilroy';
+  src: url(/src/fonts/Gilroy-Regular.ttf) format('ttf'), url(/src/fonts/Gilroy-Regular.woff) format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(/src/fonts/Gilroy-Medium.ttf) format('ttf'), url(/src/fonts/Gilroy-Medium.woff) format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(/src/fonts/Gilroy-Semibold.ttf) format('ttf'), url(/src/fonts/Gilroy-Semibold.woff) format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(/src/fonts/Gilroy-Bold.ttf) format('ttf'), url(/src/fonts/Gilroy-Bold.woff) format('woff');
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body {
+  min-width: 320px;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
