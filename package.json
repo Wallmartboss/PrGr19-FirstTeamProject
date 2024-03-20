@@ -1,11 +1,11 @@
 {
-  "name": "Gr29-FirstTeamProject",
+  "name": "PrGr19-FirstTeamProject",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Gr29-FirstTeamProject/",
+    "build": "vite build --base=/PrGr19-FirstTeamProject/",
     "preview": "vite preview"
   },
   "devDependencies": {
