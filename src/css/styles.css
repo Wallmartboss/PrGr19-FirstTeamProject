@@ -66,7 +66,31 @@ body {
   overflow: hidden;
 }
 
+/* Ддя екрану від 320 px, і щоб від тягнувся від 320 до 375 */
 .container {
   padding: 0 20px;
   margin: 0 auto;
+}
+
+/* Для мобільного екрану від 375 px  */
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+/* Для планшетного екрану від 768 px  */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+
+/* Для десктопного екрану від 1280 px  */
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 65px;
+  }
 }
