@@ -1,0 +1,43 @@
+.container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.advertisement-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: var(--background);
+    max-width: 279px;
+    margin-bottom: 28px;
+}
+
+.story {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement {
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to bottom,
+            var(--main), var(--main)),
+        url("/img/Background_image/bg1-mob-1x.jpg");
+    padding: 60px 28px;
+}
+
+.advertisement-button {
+    background-color: transparent;
+    min-width: 160px;
+    height: 48px;
+    padding: 15px 43px 15px 44px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--background);
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+}
