@@ -176,6 +176,7 @@
 
   .sale-title-container {
     width: 440px;
+    margin-bottom: 20px;
   }
 
   .sale-description-title {
@@ -183,5 +184,38 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 1.125;
+  }
+
+  .sale-product-tag {
+    margin-bottom: 0;
+  }
+
+  .sale-promo-price-block {
+    width: 78px;
+  }
+
+  .sale-promo-price {
+    display: block;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .sale-prices {
+    margin-bottom: 30px;
+  }
+
+  .sale-text-description {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+  }
+
+  .sale-models-list {
+    font-size: 14px;
+    line-height: 1.28571;
+  }
+
+  .sale-models-list {
+    width: 398px;
   }
 }
