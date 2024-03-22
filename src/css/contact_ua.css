@@ -1,0 +1,96 @@
+.contact_us-section {
+}
+.container {
+}
+.container-contact_us {
+}
+.section-contact_us-name {
+margin-bottom: 24px;
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 32px;
+line-height: 32px; 
+line-height: 1;
+letter-spacing: -0.02em;
+color: var(--main);
+
+}
+.block-contact_us {
+border-radius: 30px;
+padding: 48px 28px;
+width: 335px;
+height: 512px;
+background: var(--cards);
+max-width: 335px;
+
+}
+.text-contact_us {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 18px; 
+line-height: 1.28571;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
+margin-bottom: 28px;
+}
+.form-contact_us {
+}
+.contact_us-form-input-wrapper {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px; 
+    line-height: 1.28571;
+    color: var(--main);
+}
+
+input:focus
+ {
+    border: 1px solid var(--accent);
+}
+   
+.contact_us-form-input {
+    margin-bottom: 18px; 
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 226px 12px 14px;
+    width: 279px;
+    height: 42px;
+    background: var(--cards);
+}
+
+.comment {
+    
+}
+.review-form-massage {
+border: 1px solid rgba(12, 12, 12, 0.15);
+border-radius: 12px;
+padding: 12px 136px 54px 14px;
+width: 279px;
+height: 84px;
+background: var(--cards);
+}
+.contact_us-form-submit-btn {
+border: none;
+border-radius: 16px;
+padding: 12px 50px;
+width: 134px;
+height: 42px;
+background: var(--accent);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 18px; 
+line-height: 1.28571;
+text-align: center;
+color: var(--background);
+margin-top: 28px;
+}
+.contact_us-peacture {
+    margin-top: 20px;
+    width: 335px;
+    height: 512px;
+}
+.contuct_us-img {
+}
