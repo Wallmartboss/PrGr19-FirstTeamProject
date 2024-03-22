@@ -1,4 +1,4 @@
-.catalog-div {
+.catalog-container {
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
@@ -13,8 +13,6 @@ font-size: 32px;
 line-height: 1;
 letter-spacing: -0.02em;
 color: #0c0c0c;
-/* gap */
-margin-bottom: 24px;
 }
 
 .catalog-list-and-button {
