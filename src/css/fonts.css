@@ -1,36 +1,36 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('/src/fonts/Gilroy-Regular.ttf') format('Truetype'),
-        url('/src/fonts/Gilroy-Regular.eot') format('eot'),
-        url('/src/fonts/Gilroy-Regular.woff') format('woff'),
-        url('/src/fonts/Gilroy-Regular.woff2') format('woff2');
+    src: url('/src/fonts/Gilroy-Regular.woff2') format('woff2'),
+        /* url('/src/fonts/Gilroy-Regular.ttf') format('Truetype'),
+        url('/src/fonts/Gilroy-Regular.eot') format('eot'), */
+        url('/src/fonts/Gilroy-Regular.woff') format('woff');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('/src/fonts/Gilroy-Medium.ttf') format('Truetype'),
-        url('/src/fonts/Gilroy-Medium.eot') format('eot'),
-        url('/src/fonts/Gilroy-Medium.woff') format('woff'),
-        url('/src/fonts/Gilroy-Medium.woff2') format('woff2');
+    src: url('/src/fonts/Gilroy-Medium.woff2') format('woff2'),
+        /* url('/src/fonts/Gilroy-Medium.ttf') format('Truetype'),
+        url('/src/fonts/Gilroy-Medium.eot') format('eot'), */
+        url('/src/fonts/Gilroy-Medium.woff') format('woff');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('/src/fonts/Gilroy-Semibold.woff') format('woff'),
-        url('/src/fonts/Gilroy-Semibold.woff2') format('woff2'),
-        url('/src/fonts/Gilroy-Semibold.ttf') format('Truetype'),
-        url('/src/fonts/Gilroy-Semibold.eot') format('eot');
+    src: url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Semibold.woff') format('woff');
+    /* url('/src/fonts/Gilroy-Semibold.ttf') format('Truetype'),
+        url('/src/fonts/Gilroy-Semibold.eot') format('eot'); */
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('/src/fonts/Gilroy-Bold.ttf') format('Truetype'),
-        url('/src/fonts/Gilroy-Bold.eot') format('eot'),
-        url('/src/fonts/Gilroy-Bold.woff') format('woff'),
-        url('/src/fonts/Gilroy-Bold.woff2') format('woff2');
+    src: url('/src/fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('/src/fonts/Gilroy-Bold.woff') format('woff');
+    /* url('/src/fonts/Gilroy-Bold.ttf') format('Truetype'),
+        url('/src/fonts/Gilroy-Bold.eot') format('eot'); */
     font-weight: bold;
 }
 
