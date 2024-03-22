@@ -17,25 +17,25 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('/src/fonts/Gilroy-Regular.ttf') format('ttf'), url('/src/fonts/Gilroy-Regular.woff') format('woff');
+  src: url('/src/fonts/Gilroy-Regular.ttf') format('ttf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('/src/fonts/Gilroy-Medium.ttf') format('ttf'), url('/src/fonts/Gilroy-Medium.woff') format('woff');
+  src: url('/src/fonts/Gilroy-Medium.ttf') format('ttf');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('/src/fonts/Gilroy-Semibold.ttf') format('ttf'), url('/src/fonts/Gilroy-Semibold.woff') format('woff');
+  src: url('/src/fonts/Gilroy-Semibold.ttf') format('ttf');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('/src/fonts/Gilroy-Bold.ttf') format('ttf'), url('/src/fonts/Gilroy-Bold.woff') format('woff');
+  src: url('/src/fonts/Gilroy-Bold.ttf') format('ttf');
   font-weight: 700;
 }
 
