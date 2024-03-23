@@ -17,7 +17,6 @@ color: var(--main);
 }
 .block-contact_us {
 border-radius: 30px;
-width: 335px;
 height: 512px;
 background: var(--cards);
 max-width: 335px;
@@ -151,6 +150,12 @@ margin-top: 28px;
 
     
 }
+.review-form-massage {
+    padding: 16px 315px 54px 16px;
+    width: 460px;
+    height: 90px;
+}
+
 .contact_us-img {
     margin-top: 40px;
     width: 704px;
@@ -173,23 +178,33 @@ margin-top: 28px;
         justify-content: space-between;
         align-items: center;
         gap: 40px;
-        width: 1150;
+        width: 1150px;
         height: 556px;
         } 
-        .block-contact_us {
-            max-width: 580px;
-            padding: 50px 60px;
-            border-radius: 50px;
-            height: 556px;
-        
-            }
-            .form-contact_us {
-                max-width: 460px;
-                margin:32px 0;}
-                
+.block-contact_us {
+max-width: 580px;
+padding: 50px 60px;
+border-radius: 50px;
+height: 556px;
+border-radius: 50px;
+width: 580px;
+height: 556px;
+background: var(--cards);
+        }
+.form-contact_us {
+max-width: 460px;
+margin:32px 0;}
+         
   .contact_us-img {
-     margin-top: 20px;
+    margin: 0;
     width: 530px;
     height: 556px; 
 }
+.contact_us-form-submit-btn {
+    margin-top: 32px;
+    padding: 17px 63px;
+    width: 160px;
+    height: 52px;
+    }
+
 }
