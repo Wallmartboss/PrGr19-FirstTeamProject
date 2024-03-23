@@ -53,6 +53,10 @@
   background: #3350e9;
 }
 
+.sale-title-container {
+  margin-bottom: 20px;
+}
+
 .sale-description-title {
   font-size: 24px;
   line-height: 1.16667;
@@ -72,7 +76,9 @@
 }
 
 .sale-promo-price-block {
-  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 8px;
   width: 68px;
   height: 32px;
@@ -81,7 +87,6 @@
 }
 
 .sale-promo-price {
-  text-align: center;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
