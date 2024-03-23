@@ -7,18 +7,24 @@
   }
 }
 .container.footer-container {
-  padding-top: 0px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .container.footer-container {
+    padding-top: 40px;
     padding-bottom: 32px;
   }
 }
 .footer {
   background-color: #0c0c0c;
   border-radius: 30px;
-  padding: 40px 28px 28px 28px;
+  padding: 40px 27px 28px 27px;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 40px 40px 28px 40px;
+  }
 }
 .slogan-container {
   display: flex;
@@ -28,12 +34,17 @@
 @media screen and (min-width: 768px) {
   .slogan-container {
     margin-bottom: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 86px;
   }
 }
 @media screen and (min-width: 1280px) {
   .slogan-container {
-    margin-bottom: 126px;
+    margin-bottom: 142px;
     flex-direction: row;
+    position: relative;
   }
 }
 .footer-logo {
@@ -85,9 +96,12 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  max-width: 279px;
 }
-
+@media screen and (max-width: 767px) {
+  .slogan {
+    max-width: 281px;
+  }
+}
 @media screen and (min-width: 768px) {
   .slogan {
     font-family: 'Gilroy', sans-serif;
@@ -97,13 +111,17 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    width: 524px;
+    width: 533px;
     height: 96px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1280px) {
   .slogan {
-    width: 523px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 .tel-link {
@@ -122,6 +140,11 @@
   width: 152px;
   height: 44px;
 }
+@media screen and (max-width: 767px) {
+  .tel-link {
+    margin-bottom: 40px;
+  }
+}
 @media screen and (min-width: 768px) {
   .tel-link {
     font-size: 14px;
@@ -130,18 +153,18 @@
     height: 48px;
   }
 }
-@media screen and (max-width: 768px) {
-  .tel-link {
-    margin-bottom: 40px;
-  }
-}
 .nav-address {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
 }
-
+@media screen and (min-width: 768px) {
+  .nav-address {
+    padding-bottom: 28px;
+  }
+}
 .footer-nav-list {
   display: flex;
 }
@@ -183,15 +206,14 @@
 }
 @media screen and (max-width: 767px) {
   .nav-address-text {
-    max-width: 83px;
+    max-width: 87px;
   }
 }
 @media screen and (min-width: 768px) {
   .nav-address-text {
-    max-width: 162px;
+    max-width: 166px;
     font-size: 14px;
     line-height: 1.28571;
-    color: #fbfbfb;
   }
 }
 .contact-police {
@@ -201,6 +223,7 @@
   .contact-police {
     display: flex;
     justify-content: space-between;
+    margin-top: 28px;
   }
 }
 .contact-text {
