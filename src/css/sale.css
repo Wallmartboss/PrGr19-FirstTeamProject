@@ -167,7 +167,7 @@
   }
 
   .sale-description {
-    width: 530px;
+    width: 100%;
   }
 
   .sale-description {
@@ -232,5 +232,9 @@
   .sale-tab-block {
     gap: 20px;
     margin-bottom: 0;
+  }
+
+  .sale-description {
+    width: 530px;
   }
 }

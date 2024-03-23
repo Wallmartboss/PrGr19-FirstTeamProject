@@ -1,6 +1,6 @@
 .container {
-    /* padding-top: 60px; */
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .advertisement-text {
@@ -62,8 +62,8 @@
 /* Для планшетів від 768 px  */
 @media screen and (min-width: 768px) {
     .container {
-        padding-bottom: 80px;
-        /* padding-top: 80px; */
+        padding-bottom: 40px;
+        padding-top: 40px;
     }
 
     .advertisement {
@@ -94,8 +94,8 @@
 /* Для десктопів від 1280 px  */
 @media screen and (min-width: 1280px) {
     .container {
-        padding-bottom: 100px;
-        /* padding-top: 100px; */
+        padding-bottom: 50px;
+        padding-top: 50px;
     }
 
     .advertisement {
