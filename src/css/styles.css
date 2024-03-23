@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./fonts.css');
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./about_us.css');
@@ -15,35 +16,9 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url('/src/fonts/Gilroy-Regular.ttf') format('ttf');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Gilroy';
-  src: url('/src/fonts/Gilroy-Medium.ttf') format('ttf');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Gilroy';
-  src: url('/src/fonts/Gilroy-Semibold.ttf') format('ttf');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Gilroy';
-  src: url('/src/fonts/Gilroy-Bold.ttf') format('ttf');
-  font-weight: 700;
-}
-
 body {
   min-width: 320px;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+
 }
 
 :root {
