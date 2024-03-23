@@ -5,7 +5,7 @@
 .rev-title {
     color: #0C0C0C;;
     font-size: 32px;
-    line-height: 1;
+    line-height: 0,92;
     letter-spacing: -0.02em;
     margin-bottom: 20px;
 }
@@ -49,7 +49,7 @@
     max-width: 283px;
     color: rgba(12, 12, 12, 0.4);
     font-size: 14px;
-    line-height: 1.28;
+    line-height: 1.29;
     
 }
 
@@ -87,7 +87,8 @@
 
     .text-rev {
         font-size: 16px;
-        line-height: 1.4;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
     }
 }
 
@@ -130,9 +131,6 @@
 
     .text-rev {
        max-width: 298px;
-       font-size: 16px;
-       line-height: 1.25;
-       letter-spacing: -0.02em;
-    
-        }
+       
+    }
 }
