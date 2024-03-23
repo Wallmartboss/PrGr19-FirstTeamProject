@@ -1,0 +1,155 @@
+.reviews {
+    width: 375px;
+    height: 318px;
+}
+
+.section-title-rev {
+    width: 114px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: 0.32px;
+    color: #0C0C0C;
+    margin-bottom: 24px;
+}
+
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-rev {
+    width: 335px;
+    height: 262px;
+    background-color: #F3F3F3;
+    border-radius: 30px;
+    padding: 32px 36px;
+    text-align: center;
+    
+}
+
+.title-text-rev {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0C0C0C;
+   
+}
+
+.main-text-rev {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #0C0C0C66;
+    padding-top: 20px;
+}
+
+.main-rev-t {
+    display: none;
+}
+
+.main-rev-d {
+    display: none;
+}
+
+
+
+/*---Tablet---*/
+@media screen and (min-width: 768px) {
+    .reviews {
+        width: 704px;
+        height: 356px;
+    }
+
+    .section-title-rev {
+        width: 171px;
+        height: 44px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.92;
+        color: #0C0C0C;
+        margin-bottom: 40px;
+
+    }
+
+    .rev {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .main-rev {
+        display: block;
+        width: 344px;
+        height: 272px;
+        
+    }
+
+    .main-rev-t {
+        display: block;
+        width: 344px;
+        height: 272px;
+        background-color: #F3F3F3;
+        border-radius: 30px;
+        padding: 32px 36px;
+        text-align: center;
+    }
+
+    .title-text-rev {
+        font-size: 18px;
+        line-height: 1.1;
+    
+    }
+    
+    .main-text-rev {
+        font-size: 16px;
+        line-height: 1.25;
+     }
+}
+
+/* ---Desktop---*/
+@media screen and (min-width: 1280px) {
+    .reviews {
+        width: 1150px;
+        height: 272px;
+    }
+
+    .section-title-rev {
+        width: 171px;
+        height: 44px;
+    }
+    .rev {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .main-rev {
+        display: block;
+        width: 370px;
+            
+    }
+    
+    .main-rev-t {
+        display: block;
+        width: 370px;
+
+    }
+
+    .main-rev-d {
+        display: block;
+        width: 370px;
+        height: 272px;
+        background-color: #F3F3F3;
+        border-radius: 30px;
+        padding: 32px 36px;
+        text-align: center;
+
+    }
+
+
+}
