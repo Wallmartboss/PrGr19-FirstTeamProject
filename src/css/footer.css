@@ -19,7 +19,7 @@
 .footer {
   background-color: #0c0c0c;
   border-radius: 30px;
-  padding: 40px 27px 28px 27px;
+  padding: 40px 28px 28px 28px;
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -48,7 +48,6 @@
   }
 }
 .footer-logo {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -89,7 +88,6 @@
   opacity: 0.8;
 }
 .slogan {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -99,19 +97,18 @@
 }
 @media screen and (max-width: 767px) {
   .slogan {
-    max-width: 281px;
+    max-width: 279px;
   }
 }
 @media screen and (min-width: 768px) {
   .slogan {
-    font-family: 'Gilroy', sans-serif;
     font-weight: 600;
     font-size: 28px;
     line-height: 1.14286;
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    width: 533px;
+    width: 520px;
     height: 96px;
     margin-left: auto;
     margin-right: auto;
@@ -125,7 +122,6 @@
   }
 }
 .tel-link {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
@@ -184,7 +180,6 @@
   }
 }
 .footer-nav-link {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
@@ -198,7 +193,6 @@
   }
 }
 .nav-address-text {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
