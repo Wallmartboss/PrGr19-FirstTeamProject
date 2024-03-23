@@ -1,0 +1,129 @@
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.advertisement-text {
+    /* font-family: 'Gilroy', sans-serif; */
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: var(--background);
+    max-width: 279px;
+    margin-bottom: 50px;
+}
+
+.story {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement {
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to bottom,
+            rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+        url("../img/Background_image/bg1-mob-1x.jpg");
+    padding: 60px 28px 76px 28px;
+}
+
+@media (min-resolution: 192dpi) {
+    .advertisement {
+        background-image: linear-gradient(to bottom,
+                rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+            url("../img/Background_image/bg1-mob-2x.jpg");
+    }
+}
+
+.advertisement-button {
+    background-color: transparent;
+    min-width: 160px;
+    height: 48px;
+    padding: 15px 43px 15px 44px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--background);
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+}
+
+.advertisement-button:hover,
+.advertisement-button:focus {
+    color: var(--main);
+    background-color: var(--background);
+    outline: none;
+}
+
+/* Для планшетів від 768 px  */
+@media screen and (min-width: 768px) {
+    .container {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .advertisement {
+        background-image: linear-gradient(to bottom,
+                rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+            url("../img/Background_image/bg1-tab-1x.jpg");
+        padding: 80px 64px 96px 64px;
+    }
+
+    @media (min-resolution: 192dpi) {
+        .advertisement {
+            background-image: linear-gradient(to bottom,
+                    rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url("../img/Background_image/bg1-tab-2x.jpg");
+        }
+    }
+
+    .advertisement-text {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 92%;
+        letter-spacing: -0.02em;
+        margin-bottom: 54px;
+        max-width: 576px;
+    }
+}
+
+/* Для десктопів від 1280 px  */
+@media screen and (min-width: 1280px) {
+    .container {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .advertisement {
+        background-image: linear-gradient(to bottom,
+                rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+            url("../img/Background_image/bg1-desk-1x.jpg");
+        padding-top: 83px;
+        padding-left: 77px;
+        position: relative;
+        padding-bottom: 83px;
+    }
+
+    @media (min-resolution: 192dpi) {
+        .advertisement {
+            background-image: linear-gradient(to bottom,
+                    rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url("../img/Background_image/bg1-desk-2x.jpg");
+        }
+    }
+
+    .advertisement-text {
+        max-width: 690px;
+        margin-bottom: 0;
+    }
+
+    .advertisement-button {
+        position: absolute;
+        top: 80px;
+        right: 83px;
+    }
+}
