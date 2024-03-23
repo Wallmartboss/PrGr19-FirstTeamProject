@@ -1,8 +1,8 @@
 .contact_us-section {
-}
-.container {
+
 }
 .container-contact_us {
+    max-width: 375px;
 }
 .section-contact_us-name {
 margin-bottom: 24px;
@@ -17,11 +17,12 @@ color: var(--main);
 }
 .block-contact_us {
 border-radius: 30px;
-padding: 48px 28px;
 width: 335px;
 height: 512px;
 background: var(--cards);
 max-width: 335px;
+padding: 48px 28px;
+
 
 }
 .text-contact_us {
@@ -29,12 +30,16 @@ font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
 line-height: 18px; 
-line-height: 1.28571;
+line-height: 1.29;
 letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.7);
-margin-bottom: 28px;
+width: 279px;
+
 }
 .form-contact_us {
+    max-width: 279px;
+    margin: 28px 0;
+    
 }
 .contact_us-form-input-wrapper {
     font-family: var(--font-family);
@@ -44,13 +49,22 @@ margin-bottom: 28px;
     line-height: 1.28571;
     color: var(--main);
 }
-
-input:focus
+input
  {
-    border: 1px solid var(--accent);
+border: 1px solid #3350E9;
+border-radius: 12px;
+padding: 16px 315px 16px 16px;
+width: 460px;
+height: 52px;
+font-family: inherit;
+ 
 }
-   
+input:placeholder-shown {
+    border-color:rgba(12, 12, 12, 0.15) ;
+}
+
 .contact_us-form-input {
+
     margin-bottom: 18px; 
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
@@ -58,9 +72,11 @@ input:focus
     width: 279px;
     height: 42px;
     background: var(--cards);
+    
 }
 
 .comment {
+
     
 }
 .review-form-massage {
@@ -88,9 +104,92 @@ color: var(--background);
 margin-top: 28px;
 }
 .contact_us-peacture {
+    
+}
+.contact_us-img {
     margin-top: 20px;
     width: 335px;
     height: 512px;
 }
-.contuct_us-img {
+/* Для планшетів від 768 px  */
+@media screen and (min-width: 768px) {
+    .container {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    .container-contact_us {
+        max-width: 768px;
+        
+        
+    }
+    .block-contact_us {
+    max-width: 704px;
+    padding: 50px 122px;
+     height: 556px;
+    }
+    .form-contact_us {
+        max-width: 460px;
+        margin: 32px 0;
+    }
+    .section-contact_us-name {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 44px; 
+    line-height: 0.92;}
+
+    .text-contact_us {
+    font-size: 16px;
+    line-height: 20px; 
+    line-height: 1.25;
+    width: 460px ;
+}
+.contact_us-form-input {
+    border-radius: 12px;
+    padding: 16px 18px 16px 18px;
+    width: 460px;
+    height: 52px;
+
+    
+}
+.contact_us-img {
+    margin-top: 40px;
+    width: 704px;
+    height: 556px;
+}
+}
+    /* Для десктопів від 1280 px  */
+@media screen and (min-width: 1280px) {
+    .container {
+        padding-bottom: 100px;
+        padding-top: 100px;}
+    .container-contact_us {
+        max-width: 1280px;
+        
+            
+  }     
+     .form-and-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        width: 1150;
+        height: 556px;
+        } 
+        .block-contact_us {
+            max-width: 580px;
+            padding: 50px 60px;
+            border-radius: 50px;
+            height: 556px;
+        
+            }
+            .form-contact_us {
+                max-width: 460px;
+                margin:32px 0;}
+                
+  .contact_us-img {
+     margin-top: 20px;
+    width: 530px;
+    height: 556px; 
+}
 }
