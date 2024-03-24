@@ -191,18 +191,16 @@ cursor: pointer;
         padding-bottom: 100px;
         padding-top: 100px;}
     .container-contact_us {
-        max-width: 1280px;
-        
-            
+        max-width: 1280px;        
   }     
      .form-and-img {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 40px;
-        width: 1150px;
-        height: 556px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 1150px;
+    height: 556px;
         } 
 .block-contact_us {
 max-width: 580px;
@@ -229,5 +227,4 @@ margin:32px 0;}
     width: 160px;
     height: 52px;
     }
-
 }
