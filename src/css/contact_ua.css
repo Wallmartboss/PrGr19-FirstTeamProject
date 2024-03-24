@@ -37,7 +37,8 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    width: 279px;
+    /* width: 279px; */
+    width: 100%;
 
 }
 
