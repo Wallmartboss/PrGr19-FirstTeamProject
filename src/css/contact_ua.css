@@ -104,7 +104,6 @@ border-radius: 16px;
 padding: 12px 50px;
 width: 134px;
 height: 42px;
-background: var(--accent);
 font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
@@ -113,7 +112,16 @@ line-height: 1.28571;
 text-align: center;
 color: var(--background);
 margin-top: 28px;
+background-color: #3350E9;
+transition: background-color 250ms linear;
+cursor: pointer;
 }
+
+.contact_us-form-submit-btn:hover,
+.contact_us-form-submit-btn:focus {
+  background-color: #1f3cd4;
+}
+
 .contact_us-peacture {
     
 }
