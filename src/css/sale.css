@@ -219,7 +219,7 @@
 
   .sale-models-list {
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
   }
 
   .sale-models-list {
@@ -244,5 +244,9 @@
 
   .sale-description {
     width: 530px;
+  }
+
+  .sale-description-title {
+    width: 389px;
   }
 }
