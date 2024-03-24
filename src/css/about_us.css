@@ -55,6 +55,7 @@
 .about-us-link:hover,
 .about-us-link:focus {
     background: #1f3cd4;
+    outline: none;
 }
 .about-us-img-container {
 border-radius: 30px;
