@@ -63,6 +63,8 @@ body {
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -72,5 +74,7 @@ body {
     width: 1280px;
     padding-left: 65px;
     padding-right: 65px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
