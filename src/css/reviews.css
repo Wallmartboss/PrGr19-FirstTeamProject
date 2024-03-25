@@ -13,7 +13,7 @@
     font-weight: 600;
     line-height: 0.92;
     letter-spacing: -0.02em;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .rev {
@@ -64,9 +64,10 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
     .rev-title {
         font-size: 48px;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
     }
 
     .rev {
@@ -102,9 +103,10 @@
 
 @media screen and (min-width: 1280px) {
     .rev-section {
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .rev {
         gap: 20px;
     }
