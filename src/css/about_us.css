@@ -2,6 +2,11 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .about-us-text-container {
     display: flex;
@@ -12,7 +17,8 @@
     background-color: #f3f3f3;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .about-us-title {
@@ -20,8 +26,7 @@
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
-    color: #0c0c0c;
-    margin-top: 40px;
+    color: #0c0c0c; 
     margin-bottom: 28px;
 }
 
@@ -41,7 +46,6 @@
 
 .about-us-link {
     margin-top: 40px;
-    margin-bottom: 40px;
     width: 160px;
     height: 48px;
     border-radius: 16px;
@@ -51,6 +55,7 @@
     line-height: 1.3;
     text-align: center;
     color: #fbfbfb;
+    border: none;
     padding: 15px 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -59,10 +64,34 @@
 .about-us-link:focus {
     background: #1f3cd4;
 }
+.about-us-img-container {
+color:rgba(12, 12, 12, 0.2);
+}
+@media screen and (min-width: 768px) {
+   
+   .about-us-container {
+    gap: 40px;
+   }
+   .about-us-text-container {
+    padding: 80px 60px;
+    border-radius: 50px;
+   }
+   .about-us-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.9;
+   }
+
+.about-us-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(12, 12, 12, 0.7);
+}
 
 .about-us-img-container {
     border-radius: 30px;
     color: rgba(12, 12, 12, 0.2);
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -72,13 +101,11 @@
     }
 
     .about-us-text-container {
-        margin-bottom: 40px;
         padding-left: 60px;
         padding-right: 60px;
     }
 
     .about-us-title {
-        margin-top: 80px;
         margin-bottom: 40px;
         font-size: 48px;
         line-height: 0.9;
@@ -89,13 +116,10 @@
         line-height: 1.25;
         color: rgba(12, 12, 12, 0.7);
     }
-
-    .about-us-link {
-        margin-bottom: 80px;
-    }
 }
 
 @media screen and (min-width: 1280px) {
+
     .about_us {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -104,11 +128,9 @@
     .about-us-container {
         display: flex;
         flex-direction: row;
-        gap: 40px;
     }
 
     .about-us-text-container {
-        margin-bottom: 0;
         max-width: 580px;
     }
 
