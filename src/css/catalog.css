@@ -52,7 +52,6 @@
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    /* height: 364px; */
     padding: 23px 27px;
 }
 
@@ -61,7 +60,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-
+    padding: 18px 35px;
 }
 
 .catalog-item-text {
@@ -174,8 +173,7 @@
     .catalog-item-img {
         width: 280px;
         height: 312px;
-
-
+        padding: 10px 6px;
     }
 }
 
