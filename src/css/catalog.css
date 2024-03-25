@@ -52,8 +52,7 @@
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    /* height: 364px; */
-    padding: 23px 27px;
+    padding: 24px 28px;
 }
 
 .catalog-item-img {
@@ -61,7 +60,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-
+    padding: 18px 36px 18px 35px;
 }
 
 .catalog-item-text {
@@ -152,7 +151,7 @@
     }
 
     .catalog-item {
-        padding: 23px 31px;
+        padding: 24px 32px;
     }
 
     .catalog-name-watch {
@@ -174,8 +173,7 @@
     .catalog-item-img {
         width: 280px;
         height: 312px;
-
-
+        padding: 10px 6px;
     }
 }
 
@@ -196,6 +194,7 @@
 
     .catalog-item-img {
         width: 304px;
+        padding: 6px 6px 10px 6px;
         /* height: 312px; */
 
     }
