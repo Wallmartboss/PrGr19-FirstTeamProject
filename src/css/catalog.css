@@ -56,6 +56,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 14px;
+    margin-bottom: 20px;
 
 }
 
@@ -161,6 +163,9 @@
     .catalog-item-img {
         width: 280px;
         height: 312px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
     }
 }
 
@@ -181,5 +186,6 @@
     .catalog-item-img {
         width: 304px;
         height: 312px;
+        margin-top: 0;
     }
 }
