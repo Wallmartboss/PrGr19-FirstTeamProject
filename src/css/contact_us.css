@@ -1,7 +1,7 @@
-/* .contact_us-section {
-    margin-top: 50px;
-    mix-blend-mode: 50px;
-} */
+.contact_us-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .container-contact_us {
     max-width: 375px;
@@ -9,7 +9,6 @@
 
 .section-contact_us-name {
     margin-bottom: 24px;
-    font-family: var(--font-family);
     font-weight: 600;
     font-size: 32px;
     line-height: 32px;
@@ -26,20 +25,16 @@
     max-width: 335px;
     padding: 48px 28px;
 
-
 }
 
 .text-contact_us {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
-    line-height: 18px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    /* width: 279px; */
     width: 100%;
-
 }
 
 .form-contact_us {
@@ -49,10 +44,7 @@
 }
 
 .contact_us-form-input-wrapper {
-    /* font-family: var(--font-family); */
-    /* font-weight: 400; */
     font-size: 14px;
-    /* line-height: 18px; */
     line-height: 1.29;
     color: var(--main);
 }
@@ -71,6 +63,7 @@ input {
 input:focus-within {
     border-color: #3350e9;
     outline: #3350e9;
+
 }
 
 .contact_us-form-input {
@@ -115,7 +108,6 @@ input:focus-within {
     padding: 12px 50px;
     width: 134px;
     height: 42px;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
@@ -126,7 +118,6 @@ input:focus-within {
     background-color: #3350E9;
     transition: background-color 250ms linear;
     cursor: pointer;
-    outline: none;
 }
 
 .contact_us-form-submit-btn:hover,
@@ -144,10 +135,10 @@ input:focus-within {
 
 /* Для планшетів від 768 px  */
 @media screen and (min-width: 768px) {
-    /* .container {
-        padding-bottom: 80px;
-        padding-top: 80px;
-    } */
+    .contact_us-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
     .container-contact_us {
         max-width: 768px;
@@ -189,9 +180,9 @@ input:focus-within {
 
     .review-form-massage {
         padding: 16px 16px 54px 16px;
-        /* width: 460px; */
+
         width: 100%;
-        /* height: 90px; */
+
     }
 
     .comment {
@@ -209,9 +200,9 @@ input:focus-within {
 
 /* Для десктопів від 1280 px  */
 @media screen and (min-width: 1280px) {
-    .container {
-        padding-bottom: 100px;
-        padding-top: 100px;
+    .contact_us-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .container-contact_us {
