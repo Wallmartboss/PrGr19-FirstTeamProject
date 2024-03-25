@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 20px;
 }
+
 .about-us-text-container {
     display: flex;
     flex-direction: column;
@@ -24,7 +25,10 @@
     letter-spacing: -0.02em;
     color: #0c0c0c;
     margin-bottom: 28px; 
+    margin-top: 40px;
+    margin-bottom: 28px;
 }
+
 .about-us-text-box {
     display: flex;
     flex-direction: column;
@@ -54,6 +58,7 @@
     padding: 15px 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .about-us-link:hover,
 .about-us-link:focus {
     background: #1f3cd4;
@@ -82,17 +87,59 @@ color:rgba(12, 12, 12, 0.2);
     color: rgba(12, 12, 12, 0.7);
 }
 
+.about-us-img-container {
+    border-radius: 30px;
+    color: rgba(12, 12, 12, 0.2);
 }
+}
+
+@media screen and (min-width: 768px) {
+    .about_us {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-us-text-container {
+        margin-bottom: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .about-us-title {
+        margin-top: 80px;
+        margin-bottom: 40px;
+        font-size: 48px;
+        line-height: 0.9;
+    }
+
+    .about-us-paragraph {
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(12, 12, 12, 0.7);
+    }
+
+    .about-us-link {
+        margin-bottom: 80px;
+    }
+}
+
 @media screen and (min-width: 1280px) {
-   
+
+    .about_us {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .about-us-container {
         display: flex;
         flex-direction: row;
     }
+
     .about-us-text-container {
         max-width: 580px;
     }
+
     .about-us-link {
         margin-top: 40px;
-    }   
+    }
 }
