@@ -19,6 +19,7 @@
 }
 
 @media only screen and (max-width: 1279px) {
+
   .nav-menu,
   .social {
     display: none;
@@ -70,6 +71,10 @@
 
   .menu-open-btn {
     display: none;
+  }
+
+  .logo {
+    font-size: 20px;
   }
 
   .page-nav {
@@ -180,10 +185,8 @@
     justify-content: space-between;
     padding: 240px 39px 40px 39px;
     background-color: #0c0c0c;
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.92),
-        rgba(12, 12, 12, 0.92)
-      ),
+    background-image: linear-gradient(rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)),
       url('../img/Menu/menu-bg-mob.jpg');
     background-size: cover;
   }
@@ -271,10 +274,8 @@
 
 @media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .sidebar-menu {
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.92),
-        rgba(12, 12, 12, 0.92)
-      ),
+    background-image: linear-gradient(rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)),
       url('../img/Menu/menu-bg-mob@2x.jpg');
   }
 }
@@ -312,10 +313,8 @@
     justify-content: space-between;
     padding: 310px 101px 50px 101px;
     background-color: #0c0c0c;
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.92),
-        rgba(12, 12, 12, 0.92)
-      ),
+    background-image: linear-gradient(rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)),
       url('../img/Menu/menu-bg-tab.jpg');
     background-size: cover;
   }
@@ -406,10 +405,8 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) and (min-resolution: 192dpi) {
   .sidebar-menu {
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.92),
-        rgba(12, 12, 12, 0.92)
-      ),
+    background-image: linear-gradient(rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)),
       url('../img/Menu/menu-bg-tab@2x.jpg');
   }
 }

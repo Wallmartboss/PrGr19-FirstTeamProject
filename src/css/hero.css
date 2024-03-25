@@ -108,6 +108,9 @@
         min-width: 146px;
     }
 
+    .hero-block {
+        margin-top: 30px;
+    }
 
     .hero-a:hover,
     .hero-a:active,
