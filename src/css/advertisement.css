@@ -4,14 +4,15 @@
    }
 
    .advertisement-text {
-       /* font-family: 'Gilroy', sans-serif; */
+       display: block;
        font-weight: 600;
        font-size: 32px;
-       line-height: 100%;
+       line-height: 1.045;
        letter-spacing: -0.02em;
        color: var(--background);
        max-width: 279px;
-       margin-bottom: 50px;
+       margin-bottom: 28px;
+
    }
 
    .story {
@@ -26,7 +27,7 @@
        background-image: linear-gradient(to bottom,
                rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
            url("../img/Background_image/bg1-mob-1x.jpg");
-       padding: 60px 28px 76px 28px;
+       padding: 60px 28px;
    }
 
    @media (min-resolution: 192dpi) {
@@ -39,9 +40,10 @@
 
    .advertisement-button {
        background-color: transparent;
-       min-width: 160px;
+       display: block;
+       width: 160px;
        height: 48px;
-       padding: 15px 43px 15px 44px;
+       padding: 15px 44px 15px 43px;
        font-weight: 500;
        font-size: 14px;
        line-height: 129%;
@@ -50,6 +52,7 @@
        color: var(--background);
        border: 1px solid rgba(251, 251, 251, 0.15);
        border-radius: 16px;
+       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
 
    .advertisement-button:hover,
@@ -70,7 +73,7 @@
            background-image: linear-gradient(to bottom,
                    rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
                url("../img/Background_image/bg1-tab-1x.jpg");
-           padding: 80px 64px 96px 64px;
+           padding: 80px 64px;
        }
 
        @media (min-resolution: 192dpi) {
@@ -84,9 +87,9 @@
        .advertisement-text {
            font-weight: 600;
            font-size: 48px;
-           line-height: 92%;
+           line-height: 96%;
            letter-spacing: -0.02em;
-           margin-bottom: 54px;
+           margin-bottom: 32px;
            max-width: 576px;
        }
    }
@@ -102,10 +105,9 @@
            background-image: linear-gradient(to bottom,
                    rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
                url("../img/Background_image/bg1-desk-1x.jpg");
-           padding-top: 83px;
-           padding-left: 77px;
+           padding: 83px 80px;
            position: relative;
-           padding-bottom: 83px;
+
        }
 
        @media (min-resolution: 192dpi) {
@@ -125,5 +127,6 @@
            position: absolute;
            top: 80px;
            right: 83px;
+           transform: translate(-50% -50%);
        }
    }
