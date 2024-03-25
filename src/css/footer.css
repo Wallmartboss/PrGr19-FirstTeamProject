@@ -1,19 +1,23 @@
 /* Для футера робимо додатковий клас, який міняє 
  падінги зліва і cправа лише в декстопній версії, */
 
-.container.footer-container {
+footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
-  .container.footer-container {
+  footer {
     padding-top: 40px;
     padding-bottom: 32px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .container.footer-container {
+  footer {
     padding-top: 50px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container.footer-container {
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -56,6 +60,13 @@
   color: #fbfbfb;
   margin-bottom: 20px;
   display: flex;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  background-color: #fbfbfb;
+  color: var(--main);
+  border-radius: 2px;
+  outline: none;
 }
 @media screen and (min-width: 768px) {
   .footer-logo {
@@ -145,6 +156,12 @@
   width: 152px;
   height: 44px;
 }
+.tel-link:hover,
+.tel-link:focus {
+  background-color: #fbfbfb;
+  color: var(--main);
+  outline: none;
+}
 @media screen and (max-width: 767px) {
   .tel-link {
     margin-bottom: 40px;
@@ -194,6 +211,13 @@
   line-height: 1.33333;
   text-align: center;
   color: #fbfbfb;
+}
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  background-color: #fbfbfb;
+  color: var(--main);
+  border-radius: 2px;
+  outline: none;
 }
 @media screen and (min-width: 768px) {
   .footer-nav-link {
