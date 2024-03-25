@@ -52,7 +52,7 @@
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    padding: 23px 27px;
+    padding: 24px 28px;
 }
 
 .catalog-item-img {
@@ -151,7 +151,7 @@
     }
 
     .catalog-item {
-        padding: 23px 31px;
+        padding: 24px 32px;
     }
 
     .catalog-name-watch {
