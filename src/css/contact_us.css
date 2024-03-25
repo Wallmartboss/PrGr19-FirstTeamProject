@@ -26,6 +26,11 @@
     padding: 48px 28px;
 
 }
+.box-form {
+    max-width: 279px;
+    height: 416px;
+
+}
 
 .text-contact_us {
     font-family: var(--font-family);
@@ -39,6 +44,7 @@
 
 .form-contact_us {
     max-width: 279px;
+    height: 346px;
     margin: 28px 0;
 
 }
@@ -114,7 +120,7 @@ input:focus-within {
     line-height: 1.28571;
     text-align: center;
     color: var(--background);
-    margin-top: 28px;
+    margin-top: 28px; 
     background-color: #3350E9;
     transition: background-color 250ms linear;
     cursor: pointer;
@@ -151,9 +157,14 @@ input:focus-within {
         padding: 50px 122px;
         height: 556px;
     }
+    .box-form {
+        max-width: 460px;
+        height: 456px; 
+    }
 
     .form-contact_us {
         max-width: 460px;
+        height: 300px;
         margin: 32px 0;
     }
 
@@ -218,7 +229,10 @@ input:focus-within {
         width: 1150px;
         height: 556px;
     }
-
+    .box-form {
+        max-width: 460px;
+        height: 456px; 
+    }
     .block-contact_us {
         max-width: 580px;
         padding: 50px 60px;
@@ -232,6 +246,7 @@ input:focus-within {
 
     .form-contact_us {
         max-width: 460px;
+        height: 300px;
         margin: 32px 0;
     }
 
@@ -242,7 +257,7 @@ input:focus-within {
     }
 
     .contact_us-form-submit-btn {
-        margin-top: 32px;
+        /* margin-top: 32px; */
         padding: 17px 63px;
         width: 160px;
         height: 52px;
