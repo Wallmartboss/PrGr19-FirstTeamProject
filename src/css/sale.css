@@ -1,3 +1,7 @@
+.sale {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .sale-title {
   font-weight: 600;
   font-size: 32px;
@@ -139,6 +143,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sale {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .sale-title {
     font-size: 48px;
     margin-bottom: 40px;
@@ -173,10 +182,6 @@
     height: 558px;
     margin-bottom: 0;
   }
-
-  /* .sale-description {
-    width: 100%;
-  } */
 
   .sale-description {
     padding: 60px 60px;
@@ -228,6 +233,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .sale {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .sale-desktop-container {
     display: flex;
     gap: 40px;
