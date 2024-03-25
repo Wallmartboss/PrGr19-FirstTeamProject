@@ -1,18 +1,19 @@
-
 footer {
-    padding-top: 30px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
+
 @media screen and (min-width: 768px) {
   footer {
     padding-top: 40px;
     padding-bottom: 32px;
   }
 }
+
 @media screen and (min-width: 1280px) {
-  .container.footer-container {
+  footer {
     padding-top: 50px;
-      }
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -21,16 +22,8 @@ footer {
     padding-right: 32px;
   }
 }
+
 .footer-div {
-=======
-
-@media screen and (min-width: 1280px) {
-  .container.footer-container {
-    padding-top: 50px;
-  }
-}
-
-.footer {
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
@@ -73,6 +66,14 @@ footer {
   color: #fbfbfb;
   margin-bottom: 20px;
   display: flex;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  background-color: #fbfbfb;
+  color: var(--main);
+  border-radius: 2px;
+  outline: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -173,6 +174,7 @@ footer {
   border-radius: 16px;
   width: 152px;
   height: 44px;
+}
 
 .tel-link:hover,
 .tel-link:focus {
@@ -247,6 +249,7 @@ footer {
   color: var(--main);
   border-radius: 2px;
   outline: none;
+}
 
 @media screen and (min-width: 768px) {
   .footer-nav-link {
