@@ -8,9 +8,10 @@
 }
 
 .rev-title {
-    color: #0C0C0C;;
+    color: #0C0C0C;
     font-size: 32px;
-    line-height: 0,92;
+    font-weight: 600;
+    line-height: 0.92;
     letter-spacing: -0.02em;
     margin-bottom: 20px;
 }
@@ -55,7 +56,7 @@
     color: rgba(12, 12, 12, 0.4);
     font-size: 14px;
     line-height: 1.29;
-    
+
 }
 
 @media screen and (min-width: 768px) {
@@ -69,7 +70,7 @@
     }
 
     .rev {
-       gap: 16px;
+        gap: 16px;
     }
 
     .list-rev {
@@ -110,8 +111,8 @@
 
     .list-rev {
         min-width: 370px;
-        }
-    
+    }
+
     .list-rev-t {
         min-width: 370px;
         display: flex;
@@ -133,7 +134,7 @@
     }
 
     .text-rev {
-       max-width: 298px;
-       
+        max-width: 298px;
+
     }
 }
