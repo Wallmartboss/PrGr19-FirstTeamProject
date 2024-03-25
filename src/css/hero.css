@@ -1,15 +1,18 @@
 /*============================= max-width: 767px ======================================*/
 
+.hero {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
 .hero-block {
     display: flex;
     flex-direction: column;
     gap: 28px;
-    margin-top: 30px;
     margin-bottom: 28px;
 }
 
 .hero-title {
-    /* styleName: Mobile/H1; */
     font-size: 40px;
     font-weight: 600;
     line-height: 38px;
@@ -24,7 +27,6 @@
 }
 
 .hero-p {
-    /* styleName: Mobile/Main text; */
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
@@ -60,17 +62,20 @@
 
 @media screen and (min-width: 768px) {
 
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
     .hero-block {
         display: flex;
         flex-direction: row;
-        margin-top: 40px;
         margin-bottom: 40px;
         gap: 0;
         justify-content: space-between;
     }
 
     .hero-title {
-        /* styleName: Desktop_tablet/H1_tablet; */
         font-size: 70px;
         line-height: 60px;
     }
@@ -99,6 +104,10 @@
 
 @media screen and (min-width: 1280px) {
 
+    .hero {
+        padding-bottom: 50px;
+    }
+
     .hero-title {
         font-size: 72px;
         line-height: 63px;
@@ -107,7 +116,6 @@
     .hero-elements {
         min-width: 146px;
     }
-
 
     .hero-a:hover,
     .hero-a:active,

@@ -8,7 +8,6 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
@@ -26,6 +25,10 @@
 
   .header {
     padding: 20px 0;
+  }
+
+  .header-container {
+    justify-content: space-between;
   }
 
   .menu-open-btn {
@@ -72,10 +75,13 @@
     display: none;
   }
 
+  .logo {
+    font-size: 20px;
+    margin-right: 204px;
+  }
+
   .page-nav {
     display: flex;
-    width: 820px;
-    justify-content: space-between;
     align-items: center;
   }
 
@@ -85,6 +91,7 @@
   }
 
   .nav-menu-link {
+    position: relative;
     display: block;
     padding-top: 30px;
     padding-bottom: 40px;
@@ -94,11 +101,7 @@
     color: #0c0c0c;
   }
 
-  .nav-menu-link.active {
-    position: relative;
-  }
-
-  .nav-menu-link.active::after {
+  .nav-menu-link::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -107,12 +110,19 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
+    background-color: none;
+    transition: background-color 250ms linear;
+  }
+
+  .nav-menu-link:hover::after,
+  .nav-menu-link:focus::after {
     background-color: #3350e9;
   }
 
   .social {
     display: flex;
     gap: 10px;
+    margin-left: 204px;
   }
 
   .social-link {
@@ -146,13 +156,12 @@
 }
 
 /* ======== Menu Styles ======== */
-
 @media only screen and (max-width: 767px) {
   .backdrop {
     position: fixed;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0);
     width: 375px;
     height: 100%;
     z-index: 9999;
@@ -167,6 +176,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    transform: translate(-50%);
   }
 
   .sidebar-menu {
@@ -178,7 +188,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 240px 39px 40px 39px;
+    padding: 30vh 39px 40px 39px;
     background-color: #0c0c0c;
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.92),
@@ -217,17 +227,14 @@
   }
 
   .sidebar-nav-link {
+    position: relative;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
     color: #fbfbfb;
   }
 
-  .sidebar-nav-link.active {
-    position: relative;
-  }
-
-  .sidebar-nav-link.active::after {
+  .sidebar-nav-link::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -236,6 +243,12 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
+    background-color: none;
+    transition: background-color 250ms linear;
+  }
+
+  .sidebar-nav-link:hover::after,
+  .sidebar-nav-link:focus::after {
     background-color: #3350e9;
   }
 
@@ -279,12 +292,28 @@
   }
 }
 
+@media only screen and (max-width: 374px) {
+  .backdrop {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 374px) and (min-resolution: 192dpi) {
+  .sidebar-menu {
+    background-image: linear-gradient(
+        rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)
+      ),
+      url('../img/Menu/menu-bg-mob@2x.jpg');
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .backdrop {
     position: fixed;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0);
     width: 768px;
     height: 100%;
     z-index: 9999;
@@ -299,6 +328,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    transform: translate(-50%);
   }
 
   .sidebar-menu {
@@ -310,7 +340,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 310px 101px 50px 101px;
+    padding: 30vh 101px 50px 101px;
     background-color: #0c0c0c;
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.92),
@@ -349,17 +379,14 @@
   }
 
   .sidebar-nav-link {
+    position: relative;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
     color: #fbfbfb;
   }
 
-  .sidebar-nav-link.active {
-    position: relative;
-  }
-
-  .sidebar-nav-link.active::after {
+  .sidebar-nav-link::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -368,6 +395,12 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
+    background-color: none;
+    transition: background-color 250ms linear;
+  }
+
+  .sidebar-nav-link:hover::after,
+  .sidebar-nav-link:focus::after {
     background-color: #3350e9;
   }
 
