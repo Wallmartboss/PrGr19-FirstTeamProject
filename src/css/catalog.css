@@ -60,7 +60,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 18px 35px;
+    padding: 18px 36px 18px 35px;
 }
 
 .catalog-item-text {
@@ -194,6 +194,7 @@
 
     .catalog-item-img {
         width: 304px;
+        padding: 6px 6px 10px 6px;
         /* height: 312px; */
 
     }
