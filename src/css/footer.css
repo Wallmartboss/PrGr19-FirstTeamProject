@@ -68,13 +68,13 @@ footer {
   display: flex;
 }
 
-.footer-logo:hover,
+/* .footer-logo:hover,
 .footer-logo:focus {
   background-color: #fbfbfb;
   color: var(--main);
   border-radius: 2px;
   outline: none;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .footer-logo {

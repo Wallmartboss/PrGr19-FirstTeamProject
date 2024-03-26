@@ -54,7 +54,12 @@
     font-size: 14px;
     line-height: 1.29;
     color: var(--main);
+    margin-bottom: 18px;
 
+}
+
+.comment {
+    margin-bottom: 0;
 }
 
 input {
@@ -81,7 +86,6 @@ textarea:valid {
 
 .contact_us-form-input {
 
-    margin-bottom: 18px;
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
     padding: 12px 14px;
