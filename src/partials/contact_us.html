@@ -29,6 +29,7 @@
                 class="contact_us-form-input"
                 id="user-email"
                 required
+                pattern="^\S+@\S+\.\S+$"
                 placeholder="Email"
               />
             </div>
@@ -38,8 +39,10 @@
                 name="user-phone"
                 class="contact_us-form-input"
                 id="user-phone"
-                pattern="+[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                required=""
+                pattern="[\+]\d{3}[\-]\d{2}[\-]\d{3}[\-]\d{2}[\-]\d{2}"
+                minlength="13"
+                maxlength="17"
+                required
                 title="+xxx-xx-xxx-xx-xx"
                 placeholder="+380"
               />
@@ -49,7 +52,7 @@
                 class="review-form-massage"
                 name="user-comment"
                 id="user-comment"
-                required=""
+                required
                 placeholder="Comment"
               ></textarea>
             </div>
