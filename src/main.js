@@ -1,27 +1,24 @@
-// const text = document.querySelector('#moble-menu');
-// const id = document.ElementById('moble-menu');
-
-// function openModal(text) {
-//   let modal = document.querySelector(text);
-//   modal.classList.add('is-open');
-// }
-// function closeModal(id) {
-//   let modal = document.getElementById(id);
-//   modal.classList.remove('is-open');
-// }
-
-
 document.querySelectorAll('.smooth-scroll').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        
-        if (targetElement) {
-            targetElement.scrollIntoView({
-                behavior: 'smooth' // Smooth scroll
-            });
-        }
-    });
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth', // Smooth scroll
+      });
+    }
+  });
 });
+let openbutton = document.getElementById('openbutton');
+openbutton.onclick = function openModal() {
+  let modal = document.querySelector('#mobile-menu');
+  modal.classList.add('is-open');
+};
+let closebutton = document.getElementById('closebutton');
+closebutton.onclick = function closeModal() {
+  let modal = document.querySelector('#mobile-menu');
+  modal.classList.remove('is-open');
+};

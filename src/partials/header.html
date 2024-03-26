@@ -25,11 +25,7 @@
         </li>
       </ul>
     </nav>
-    <button
-      class="menu-open-btn"
-      type="button"
-      onclick="openModal('#mobile-menu')"
-    >
+    <button class="menu-open-btn" type="button" id="openbutton">
       <svg class="menu-open-btn-icon" aria-label="menu open icon">
         <use href="./img/icons/sprite.svg#icon-menu"></use>
       </svg>
@@ -89,11 +85,7 @@
 
 <div class="backdrop" id="mobile-menu">
   <div class="sidebar-menu">
-    <button
-      class="menu-close-btn"
-      type="button"
-      onclick="closeModal('mobile-menu')"
-    >
+    <button class="menu-close-btn" type="button" id="closebutton">
       <svg class="menu-close-icon" aria-label="menu close icon">
         <use href="./img/icons/sprite.svg#icon-x"></use>
       </svg>
