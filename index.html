@@ -41,13 +41,9 @@
         </li>
       </ul>
     </nav>
-    <button
-      class="menu-open-btn"
-      type="button"
-      onclick="openModal('#mobile-menu')"
-    >
+    <button class="menu-open-btn" type="button" id="openbutton">
       <svg class="menu-open-btn-icon" aria-label="menu open icon">
-        <use href="/PrGr19-FirstTeamProject/assets/sprite-ae8a5224.svg#icon-menu"></use>
+        <use href="/PrGr19-FirstTeamProject/assets/sprite-24096d28.svg#icon-menu"></use>
       </svg>
     </button>
     <ul class="social">
@@ -63,7 +59,7 @@
             height="20"
             aria-label="facebook icon"
           >
-            <use href="/PrGr19-FirstTeamProject/assets/sprite-ae8a5224.svg#icon-facebook"></use>
+            <use href="/PrGr19-FirstTeamProject/assets/sprite-24096d28.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
@@ -79,7 +75,7 @@
             height="20"
             aria-label="instagram icon"
           >
-            <use href="/PrGr19-FirstTeamProject/assets/sprite-ae8a5224.svg#icon-instagram"></use>
+            <use href="/PrGr19-FirstTeamProject/assets/sprite-24096d28.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
@@ -95,7 +91,7 @@
             height="20"
             aria-label="youtube icon"
           >
-            <use href="/PrGr19-FirstTeamProject/assets/sprite-ae8a5224.svg#icon-youtube"></use>
+            <use href="/PrGr19-FirstTeamProject/assets/sprite-24096d28.svg#icon-youtube"></use>
           </svg>
         </a>
       </li>
@@ -105,13 +101,9 @@
 
 <div class="backdrop" id="mobile-menu">
   <div class="sidebar-menu">
-    <button
-      class="menu-close-btn"
-      type="button"
-      onclick="closeModal('mobile-menu')"
-    >
+    <button class="menu-close-btn" type="button" id="closebutton">
       <svg class="menu-close-icon" aria-label="menu close icon">
-        <use href="/PrGr19-FirstTeamProject/assets/sprite-ae8a5224.svg#icon-x"></use>
+        <use href="/PrGr19-FirstTeamProject/assets/sprite-24096d28.svg#icon-x"></use>
       </svg>
     </button>
     <ul class="sidebar-nav-list">
@@ -144,7 +136,7 @@
           target="_blank"
         >
           <svg class="sidebar-social-icon" aria-label="facebook icon">
-            <use href="/PrGr19-FirstTeamProject/assets/sprite-ae8a5224.svg#icon-facebook"></use>
+            <use href="/PrGr19-FirstTeamProject/assets/sprite-24096d28.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
@@ -155,7 +147,7 @@
           target="_blank"
         >
           <svg class="sidebar-social-icon" aria-label="instagram icon">
-            <use href="/PrGr19-FirstTeamProject/assets/sprite-ae8a5224.svg#icon-instagram"></use>
+            <use href="/PrGr19-FirstTeamProject/assets/sprite-24096d28.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
@@ -166,7 +158,7 @@
           target="_blank"
         >
           <svg class="sidebar-social-icon" aria-label="youtube icon">
-            <use href="/PrGr19-FirstTeamProject/assets/sprite-ae8a5224.svg#icon-youtube"></use>
+            <use href="/PrGr19-FirstTeamProject/assets/sprite-24096d28.svg#icon-youtube"></use>
           </svg>
         </a>
       </li>
@@ -781,15 +773,5 @@
 
     </footer>
     
-    <script>
-      function openModal(text) {
-        let modal = document.querySelector(text);
-        modal.classList.add('is-open');
-      }
-      function closeModal(id) {
-        let modal = document.getElementById(id);
-        modal.classList.remove('is-open');
-      }
-    </script>
   </body>
 </html>
