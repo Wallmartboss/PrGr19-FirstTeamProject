@@ -266,6 +266,16 @@ footer {
   font-size: 12px;
   line-height: 1.33333;
   color: #fbfbfb;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-address-text:hover,
+.nav-address-text:focus {
+  background-color: #fbfbfb;
+  color: var(--main);
+  border-radius: 2px;
+  outline: none;
 }
 
 @media screen and (max-width: 767px) {
