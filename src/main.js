@@ -22,3 +22,28 @@ closebutton.onclick = function closeModal() {
   let modal = document.querySelector('#mobile-menu');
   modal.classList.remove('is-open');
 };
+let ab_us = document.getElementById('ab_us'); /* 2 */
+ab_us.onclick = function closeModal() {
+  let modal = document.querySelector('#mobile-menu');
+  modal.classList.remove('is-open');
+};
+let ctlg = document.getElementById('ctlg'); /* 3 */
+ctlg.onclick = function closeModal() {
+  let modal = document.querySelector('#mobile-menu');
+  modal.classList.remove('is-open');
+};
+let sl = document.getElementById('sl'); /* 4 */
+sl.onclick = function closeModal() {
+  let modal = document.querySelector('#mobile-menu');
+  modal.classList.remove('is-open');
+};
+let rvw = document.getElementById('rvw'); /* 5 */
+rvw.onclick = function closeModal() {
+  let modal = document.querySelector('#mobile-menu');
+  modal.classList.remove('is-open');
+};
+let cntc = document.getElementById('cntc'); /* 6 */
+cntc.onclick = function closeModal() {
+  let modal = document.querySelector('#mobile-menu');
+  modal.classList.remove('is-open');
+};
